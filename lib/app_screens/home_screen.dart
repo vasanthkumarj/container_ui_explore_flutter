@@ -16,8 +16,10 @@ class Home extends StatelessWidget
                          textDirection: TextDirection.ltr,
                          style: TextStyle(
                              color: Colors.black,
+                             decoration: TextDecoration.none,
                              fontSize: 20.0,
-                             fontStyle: FontStyle.italic
+                             fontFamily: "Raleway",
+                             fontWeight: FontWeight.w800
                          ),
                          textAlign: TextAlign.center,
                        )
