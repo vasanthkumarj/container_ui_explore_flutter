@@ -10,7 +10,6 @@ class Home extends StatelessWidget
                        color: Colors.white,
                        margin: EdgeInsets.all(10.0),
                        padding: EdgeInsets.all(20.0),
-                       alignment: Alignment.center,
                        child: Text(
                          "Container with margin and padding",
                          textDirection: TextDirection.ltr,
@@ -21,7 +20,7 @@ class Home extends StatelessWidget
                              fontFamily: "Raleway",
                              fontWeight: FontWeight.w800
                          ),
-                         textAlign: TextAlign.center,
+                         textAlign: TextAlign.center
                        )
                    )
                  );
